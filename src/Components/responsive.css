@@ -1,0 +1,14 @@
+/*Responsive design*/
+
+
+@media (max-width: 610px) {
+    .titlecontent {
+        padding: 30px;
+    }
+    .p1 span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+    }
+}

@@ -1,0 +1,130 @@
+.contact-container {
+    position: relative;
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FCFCFC;
+}
+.contact {
+    margin-top: 85px;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+    justify-content: flex-start;
+}
+.info {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 100px;
+    justify-content: center;
+    width: 100%;
+    min-height: auto;
+}
+
+.phoneMail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 200px;
+    margin-top: 30px;
+}
+.mailrow {
+    display: flex;
+    flex-direction: row;
+}
+.mailrow img {
+    margin-top: 5px;
+    margin-right: 10px;
+    width: 15%;
+    height: 50%;
+}
+.phonerow {
+    display: flex;
+    flex-direction: row;
+    width: 230px;
+    margin-top: 30px;
+}
+.phonerow img {
+    margin-top: -3px;
+    margin-right: 10px;
+    margin-left: 2px;
+    width: 12%;
+    height: 70%;
+}
+
+.formCol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 550px;
+    height: 340px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 380px;
+}
+.form input {
+    height: 60px;
+    width: 400px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    text-indent: 0.5cm;
+    background-color: #CEDCFF;
+    border-style: none;
+}
+.form button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+    background: none;
+    border-radius: 50px;
+    border-width: 3px;
+    border-color: #5180F6;
+    border-style: solid;
+}
+
+.finalcolor {
+    display: flex;
+    background-color: #0C1E49;
+    width: 100%;
+    height: 160px;
+}
+
+/*---media queries---*/
+@media (max-width: 935px) {
+    .info {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact img {
+        width: 80%;
+    }
+    .form {
+        width: 100%;
+    }
+    .form input {
+        width: 80%;
+    }
+    .phoneMail{
+        width: 80%;
+    }
+    .formCol {
+        width: 80%;
+        height: auto;
+    }
+    .phoneMail {
+        width: 80%;
+    }
+}

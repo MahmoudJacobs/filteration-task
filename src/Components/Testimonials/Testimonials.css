@@ -1,0 +1,127 @@
+.testimonails-container {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.testimonials {
+    margin-top: 85px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.reviewcard-row {
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.reviewcard-col1 {
+   display: flex;
+   width: 30%;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin-right: 120px;
+}
+.reviewcard-col2 {
+    display: flex;
+    align-items: center;
+   justify-content: center;
+    width: 30%;
+    flex-direction: column;
+ }
+ .reviewcard-col1 button, .reviewcard-col2 button {
+    margin-bottom: 50px;
+    width: 115%;
+    height: 233px;
+    border-radius: 40px;
+ }
+ .cardrow1 {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    border-style: solid;
+    border-color: #6D91EE;
+    border-width: 1px;
+    margin-bottom: 50px;
+    width: 115%;
+    height: 233px;
+    border-radius: 40px;
+ }
+ .cardcol1 {
+   display: flex;
+   flex-direction: row;
+ }
+ .cardcol1 img {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    margin-top: 25px;
+    width: 100%;
+    height: 25%;
+    border-radius: 70px;
+ }
+ .cardcol2 {
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+ }
+ .cardcol2 h6 {
+    color: #6D91EE;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+ }
+ .cardcol2 p {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #22366A;
+    font-size: 14px;
+ }
+ .cardcol2stars {
+    margin-left: 20px;
+ }
+ .cardcol2stars span {
+    padding: 5px;
+ }
+ .checked {
+    color: #6D91EE;
+ }
+
+
+ @media (max-width: 1080px) {
+   .cardrow1 {
+      width: 130%;
+   }
+ }
+ @media (max-width: 935px) {
+   .reviewcard-row{
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+   }
+   .reviewcard-col1 {
+      margin: 0;
+   }
+   .cardrow1 {
+      width: 300%;
+      height: 130%;
+   }
+   .cardcol1 img {
+      width: 60px;
+      height: 60px;
+   }
+   .testimonials img {
+      width: 80%;
+   }
+}
